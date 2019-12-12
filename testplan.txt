@@ -1,0 +1,8 @@
+We were only able to implement the HELLO and GDBYE commands due to time restrictions.
+To test what we have we run the server and client with improper command line arguments
+and the response was as we expected. Then, we try with proper arguments and check the 
+server and client side to see if the connection succeeded and prints something on both
+sides. Our help command on the client side works. To test concurrency we try connecting
+to the server with multiple clients at once and one client after the next. To test quit
+we look at the outputs on the server end to see if the message was received and then 
+check the cilent end as well to see if it quits successfully.
